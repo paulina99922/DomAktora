@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Dom Aktora</string>
+    <string name="dom_aktora">DOM AKTORA</string>
+    <string name="description">guest house in the center of Gdansk</string>
+    <string name="website">www.domaktora.pl</string>
+    <string name="email">biuro@domaktora.pl</string>
+    <string name="phone">+48 58 301 59 01</string>
+    <string name="address">Straganiarska 55/56 \n 80-837 Gdansk</string>
+</resources>

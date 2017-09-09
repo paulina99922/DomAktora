@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LinearLayoutMain"
+    android:id="@+id/activity_main"
+    tools:context="com.example.android.domaktora.MainActivity">
+    <LinearLayout
+        style="@style/LinearLayoutMain">
+        <LinearLayout
+            style="@style/LinearLayout1">
+            <TextView
+                android:text="@string/dom_aktora"
+                style="@style/DomAktora" />
+            <TextView
+                android:text="@string/description"
+                style="@style/Description" />
+            <ImageView
+                style="@style/ImageHotel"
+                android:id="@+id/hotel_image"
+                android:src="@drawable/domaktora"
+                />
+        </LinearLayout>
+        <LinearLayout
+            style="@style/LinearLayout2">
+            <ImageView
+                android:src="@drawable/website"
+                style="@style/Images" />
+            <Button
+                android:text="@string/website"
+                style="@style/Buttons"
+                android:autoLink="web" />
+         </LinearLayout>
+         <LinearLayout
+            style="@style/LinearLayout2">
+             <ImageView
+                 android:src="@drawable/email"
+                 style="@style/Images" />
+            <Button
+                android:text="@string/email"
+                style="@style/Buttons"
+                android:autoLink="email"
+                android:id="@+id/sendEmail"
+                />
+         </LinearLayout>
+         <LinearLayout
+             style="@style/LinearLayout2">
+
+             <ImageView
+                android:src="@drawable/phone"
+                 style="@style/Images"/>
+
+             <Button
+                android:text="@string/phone"
+                style="@style/Buttons"
+                android:autoLink="phone"
+                android:id="@+id/buttonCall"
+                android:linksClickable="true"/>
+         </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearLayout2">
+            <ImageView
+                android:src="@drawable/location"
+                style="@style/Images"
+                />
+            <Button
+                android:text="@string/address"
+                style="@style/Buttons"
+                android:onClick="openMap"
+                android:id="@+id/openMap"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

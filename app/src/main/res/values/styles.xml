@@ -1,0 +1,87 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="LinearLayoutMain">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/color1</item>
+        <item name="android:weightSum">9</item>
+    </style>
+
+
+    <style name="LinearLayout1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_weight">5</item>
+    </style>
+
+    <style name="LinearLayout2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+
+    <style name="DomAktora">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/dom_aktora</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:textColor">@color/color2</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">36sp</item>
+    </style>
+
+    <style name="Description">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:text">@string/description</item>
+    <item name="android:fontFamily">cursive</item>
+    <item name="android:textAlignment">center</item>
+    <item name="android:textColor">@color/color2</item>
+    <item name="android:paddingBottom">10dp</item>
+    <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="ImageHotel">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">270dp</item>
+    <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="Images">
+    <item name="android:layout_width">35dp</item>
+    <item name="android:layout_height">28dp</item>
+    <item name="android:scaleType">centerCrop</item>
+    <item name="android:layout_marginTop">15dp</item>
+    <item name="android:layout_marginBottom">15dp</item>
+    <item name="android:layout_marginLeft">30dp</item>
+    </style>
+
+    <style name="Buttons">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:layout_marginTop">10dp</item>
+    <item name="android:layout_marginBottom">8dp</item>
+    <item name="android:background">@color/color1</item>
+    <item name="android:textColor">@color/color2</item>
+    <item name="android:textSize">17sp</item>
+    <item name="android:textAlignment">center</item>
+    </style>
+
+
+
+</resources>
